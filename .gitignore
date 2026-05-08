@@ -1,0 +1,22 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Backups / temp
+*.bak
+*.tmp
+*~
+*.swp
+
+# Per-project junctions (do NOT commit these — they're created locally)
+docs/global/
+
+# Anything secret (this repo should NEVER hold secrets, but belt & suspenders)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
